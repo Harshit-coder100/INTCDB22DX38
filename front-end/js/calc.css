@@ -1,17 +1,21 @@
-h2{
-    background-color: aqua;
-}
-#divide{
+/* #addbtn {
     background-color: coral;
 }
 
-.asm{
-    background-color: darkorange;
+#subbtn {
+    background-color: blueviolet;
+} */
+/* 
+button{
+    background-color: gray;
+} */
+
+.as {
+    background-color: blue;
 }
 
-
 p{
-    border: 2px solid black;
-    padding:50px;
-    font: italic 30px "Times New Roman","Times"
+    border : 1px solid black;
+    padding:  50px;
+    font: italic 30px "Times New Roman", "Times"
 }

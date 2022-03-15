@@ -1,27 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <h2 id="message">Some text</h2>  
+        <button onclick="reverse()">Reverse Message</button>
 
-<h2 id="message">Some Text</h2>
-
-<button  onclick="reverse()">Reverse</button>
-
-
-
-    <script>
-function reverse() {
-    var str= document.getElementsByTagName("h2")[0].innerText
-         var revstr=str.split("").reverse().join("")
-      document.getElementById("message").innerText=revstr   
-}
-
-       
-    </script>
-</body>
+        <script>
+            function reverse(){
+                console.log('reverse function...');
+                var str = document.getElementById('message').innerText;
+                var revstr = str.split('').reverse().join('');
+                document.getElementById('message').innerText = revstr;
+            }
+        </script>
+    </body>
 </html>
