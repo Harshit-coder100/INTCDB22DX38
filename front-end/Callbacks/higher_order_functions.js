@@ -9,7 +9,7 @@
     return number % 2 == 0;
   }
   
-
+// 
 
 
   function filter(numbers, fn) {          // Filter method is a Higher - Order function.

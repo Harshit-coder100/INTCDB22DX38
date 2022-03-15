@@ -9,7 +9,7 @@
 
 // A high-order function is a function that accepts another function 
 // as an argument.
-
+//
 // let fun = function sum(a, b){
 //   return a+b;
 // }
