@@ -1,11 +1,11 @@
 // Anchors
-//^ - The caret anchor matches a pattern at the begginning of the text/string
-//$ - The dollar anchor matches a pattern at the end of the text/string
+//  ^  - The caret anchor matches a pattern at the beginning of the test/string.
+//  $  - The dollar anchor matches a pattern at the end of the test/string.
 
-// let str = "Javascript";
 
-// let result = /^Java/.test(str);
+// let str = 'Javascript';
+// // let result = /^Java/.test(str);
 
-// let result = /t$/.test(str);
+// let result = /t$/.test(str)
 
-// console.log(result);
+// console.log(result)
