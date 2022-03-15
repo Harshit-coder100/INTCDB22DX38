@@ -5,7 +5,7 @@
 
 // By definition, a callback is a function that you pass into another 
 // function as an argument for executing later.
-
+// 
 
 // A high-order function is a function that accepts another function 
 // as an argument.
